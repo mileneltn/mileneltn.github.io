@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Mon Portfolio</h1>
+            <nav>
+                <a href="#about" class="text-white hover:text-gray-300 px-4 py-2">À propos</a>
+                <a href="#projects" class="text-white hover:text-gray-300 px-4 py-2">Projets</a>
+                <a href="#contact" class="text-white hover:text-gray-300 px-4 py-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-32 px-6 text-center">
+        <h2 class="text-5xl font-bold mb-4">Bienvenue sur mon Portfolio</h2>
+        <p class="text-lg mb-6 max-w-3xl mx-auto">Je suis passionnée par le design, la technologie et la création de projets web innovants. À la recherche d'une alternance dans le web design, n'hésitez pas à me contacter !</p>
+        <a href="#projects" class="bg-white text-gray-800 py-2 px-6 rounded-full hover:bg-gray-200 transition duration-300">Voir mes projets</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">À propos de moi</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    Je suis une étudiante passionnée par le multimédia et le design, avec un Bac Pro en Systèmes Numériques option Réseau informatique et systèmes communicants.
+                    Actuellement, je prépare une transition vers des études de web design à Toulouse pour approfondir mes compétences dans le domaine.
+                    Mon objectif est de créer des projets innovants et esthétiques, en combinant créativité, technologie et psychologie.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Mes Projets</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <a href="projet1.html" class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Capture d’écran 2025-01-28 à 11.33.53.png" alt="Agence de voyage" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Site internet d'agence de voyage</h3>
+                        <p class="text-gray-600">Un design épuré et fonctionnel pour une expérience utilisateur optimale.</p>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="projet2.html" class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="IMG_D45F0899-F666-4473-9B08-BA621F8028CD.jpeg" alt="Logo Nike" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Re-design du logo Nike</h3>
+                        <p class="text-gray-600">Un logo modernisé pour s’adapter aux nouvelles tendances du marché sportif.</p>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="projet3.html" class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Capture d’écran 2025-01-28 à 11.07.34.png" alt="Logo Omniservici" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Création de logo pour Omniservici</h3>
+                        <p class="text-gray-600">Un logo élégant et professionnel pour une entreprise de paysagisme.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Contactez-moi</h2>
+            <div class="text-lg text-gray-600 mb-6">
+                <p>Pour toute question ou un éventuel entretien, n'hésitez pas à me contacter !</p>
+                <p class="mt-4">📧 milene.latronpro@gmail.com</p>
+                <p>📞 06 34 65 69 49</p>
+            </div>
+            <a href="mailto:exemple@mail.com" class="bg-blue-600 text-white py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300">Envoyer un message</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
